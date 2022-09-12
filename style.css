@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F7FA;
+}
+
+
+/******************* top menu section start ************************/
+.top-menu{
+   background-color: #002970;
+    padding: 50px 40px 100px 40px;
+}
+
+.top-menu img{
+    width: 40%;
+    cursor: pointer;
+}
+.top-menu p{
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*************************** responsive code for top menu section*********************/
+@media(max-width:1190px) and (min-width:1000px){
+    .top-menu p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:999px) and (min-width:800px){
+    .top-menu img{
+        width: 70%;
+        
+    }
+    .top-menu{
+        background-color: #002970;
+         padding: 50px 10px 70px 10px;
+     }
+     .top-menu p{
+        font-size: 11px;
+     }
+}
+
+@media(max-width:799px) and (min-width:500px){
+    .top-menu img{
+        width: 100%;
+        
+    }
+    .top-menu{
+        background-color: #002970;
+         padding: 50px 10px 70px 10px;
+     }
+     .top-menu p{
+        font-size: 8px;
+     }
+}
+
+/*************************** top menu section close ******************************/
+
+
+/*************************** bill pay section start ******************************/
+.bill-pay{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin: 30px;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 40px;
+    margin-top: -80px;
+    margin-left: 67px;
+}
+.bill-pay h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.bill-pay .main input{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.bill-pay .paid input{
+    margin: 0px 20px;
+}
+.bill-pay .main input:focus {
+    border-bottom: 2px solid #2c8ebe;
+}
+.bill-pay .main .send input{
+    background-color: #2095cf;
+    width: 70%;
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/**********************responsive code for bill-pay section**************************************/
+
+@media(max-width:426px) and (min-width:300px){
+    .bill-pay{
+        width: 250px;
+        margin-left: 5%; 
+    }
+    .bill-pay .main .send input{
+        font-size: 11px;
+    }
+    .bill-pay .paid input{
+        margin: 0px 10px;
+    }
+    .bill-pay h4{
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 299px) and (min-width:230px){
+    .bill-pay{
+        width: 200px;
+        margin-left: 5%; 
+    }
+    .bill-pay .main .send input{
+        font-size: 8px;
+    }
+    .bill-pay h4{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+}
+
+/*************************** bill-pay section close ************************************/
+
+/************************************* logo section start***************************************************/
+.logo{
+    padding: 10px 0px;
+}
+.logo .container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+}
+.logo .container h4{
+    font-size: 22px;
+    padding-left: 20px;
+}
+.logo .container img{
+    width: 70%;
+}
+.logo .container p{
+    color: gray;
+}
+
+/********************** responsive code for logo section ********************************/
+
+@media(max-width: 450px) and (min-width:357px){
+    .logo .container p{
+        font-size: 11px;
+    }
+}
+@media(max-width: 356px) and (min-width:300px){
+    .logo .container p{
+        font-size: 9px;
+    }
+}
+@media(max-width: 299px) and (min-width:220px){
+    .logo .container p{
+        font-size: 7px;
+    }
+}
+/********************** logo section close********************************/
